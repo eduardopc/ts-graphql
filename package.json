@@ -25,6 +25,7 @@
     "@typegoose/typegoose": "^7.4.5",
     "class-validator": "^0.12.2",
     "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
     "graphql-yoga": "^1.18.3",
     "mongodb": "^3.6.3",
     "mongoose": "5.10.13",

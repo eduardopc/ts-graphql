@@ -1,14 +1,20 @@
 import "dotenv/config";
 import { GraphQLServer } from "graphql-yoga";
 
-import { resolvers, typeDefs } from './animals';
 import DatabaseBootstrap from './database';
+import schema from './schema';
 
-const server = new GraphQLServer({ typeDefs, resolvers });
+async function bootstrap() {
+  const server = new GraphQLServer({
+    schema: await schema,
+  });
 
+  return server;
+}
+
+bootstrap().then((server) =>
 server.start(() => {
   new DatabaseBootstrap().bootstrap();
-  console.log(
-    `Server is running at http://localhost:4000`
-  );
-});
+  console.log("Server is running on http://localhost:4000"); 
+})
+);
