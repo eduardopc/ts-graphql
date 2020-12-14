@@ -1,5 +1,11 @@
 # GraphQL + Typescript
 
+Projeto escrito para ilustrar o passo a passo de escrever uma API em GraphQL feito nos seguintes artigos:
+
+[GraphQL + Typescript-Parte I](https://medium.com/beyondtest/graphql-typescript-parte-i-bd8ef114b9fe)
+
+[GraphQL + Typescript-Parte II](https://medium.com/beyondtest/graphql-typescript-parte-ii-2b53583c365e)
+
 Para iniciar o projeto, baixar primeiro todas as dependências:
 
 Com Yarn:
