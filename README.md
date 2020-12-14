@@ -6,6 +6,8 @@ Projeto escrito para ilustrar o passo a passo de escrever uma API em GraphQL fei
 
 [GraphQL + Typescript-Parte II](https://medium.com/beyondtest/graphql-typescript-parte-ii-2b53583c365e)
 
+---
+
 Para iniciar o projeto, baixar primeiro todas as dependências:
 
 Com Yarn:
